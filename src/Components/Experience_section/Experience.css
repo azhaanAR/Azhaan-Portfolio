@@ -1,0 +1,46 @@
+.experience span
+{
+
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+.experince-detailes 
+{
+    border: 1px solid #8b5bf6;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.detailes-section 
+{
+    margin-bottom: 2.5rem;
+}
+.detailes-section .icon-section span svg
+{
+    color:#8a5bf5;
+}
+
+.experince-detailes .year-section span
+{
+    color: #19d5b3;
+    font-size: 14px;
+}
+.experince-detailes .detailes h4
+{
+    font-size: 20px;
+    font-weight:500;
+    color: #e0e0e8;
+    letter-spacing: 1px;
+    margin-bottom:0.7rem;
+
+}
+.experince-detailes .detailes span
+{
+    font-size: 17px;
+    color: #e0e0e8;
+    letter-spacing: 1px;
+
+}

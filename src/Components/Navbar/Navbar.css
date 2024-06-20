@@ -1,0 +1,38 @@
+*
+{
+    background-image: url("	https://codewithmosh.com/_next/static/media/bg-grid-lighter.4c1e8196.svg");
+    background-color: #0d1224;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html
+{
+    scroll-behavior: smooth;
+}
+.navbar .logo
+{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.navbar .logo span
+{
+   
+    font-weight:700;
+    font-size: 20px;
+    color: #ff57c3;
+}
+.navbar .logo span:nth-child(3)
+{
+    font-size: 22px;
+    font-weight:700;
+    color: #8244ff;
+}
+.navbar ul li
+{
+      letter-spacing: 1px;
+      font-size: 15px;
+}
+
