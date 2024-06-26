@@ -13,6 +13,7 @@ html
 }
 .navbar .logo
 {
+    margin: 0rem 3rem;
     font-size: 21px;
     font-weight: 600;
 }
@@ -35,4 +36,12 @@ html
       letter-spacing: 1px;
       font-size: 15px;
 }
+@media only screen and (min-width: 300px) and (max-width:575px)
+  {  
+    .navbar .logo
+    {
+      margin: 0rem 0rem;
+    }
+   
+  }
 

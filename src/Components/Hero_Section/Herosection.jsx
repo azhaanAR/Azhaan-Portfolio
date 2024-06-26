@@ -1,5 +1,6 @@
 import React from 'react';
 import {ReactTyped} from 'react-typed'
+import LazyLoad from 'react-lazyload';
 import '../Hero_Section/Herosection.css'
 
 const Herosection = () => {
@@ -32,6 +33,7 @@ const Herosection = () => {
                         </div>
 
                         <div className="icon-section">
+                            <LazyLoad>
                             <ul className='d-flex'>
                                 <li className=''>
                                     <i class="fa-brands fa-instagram"></i>
@@ -47,6 +49,7 @@ const Herosection = () => {
                                 </li>
 
                             </ul>
+                            </LazyLoad>
                         </div>
 
                         <div className="resume-btn">
